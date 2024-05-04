@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+/* ===========================================
+Responsive Codes 
+======================================= */
+
+/* 650px  */
+@media (max-width: 40em) {
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+  body {
+    
+    overflow-x: hidden;
+   } 
+
+
+    .header {
+      height: 10vh;
+      width: 100vw;
+      top: 0;
+      position: fixed;
+      /* border: 1px solid wheat; */
+    }
+  
+    .header .logo {
+      height: auto;
+      width: auto;
+      font-size: 2em;
+    }
+  
+    .navbar {
+      /* display: none; */
+      width: 100%;
+      height: 100vh;
+      background: #e7f5ff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      /* to get the tranisition  */
+      transform: translateX(100%);
+      transition: all 0.5s linear;
+
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  
+    .navbar-ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-list {
+      color: rgb(0, 0, 0);
+    }
+  
+    .active .navbar {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 999;
+      }
+    
+      .mobile-nav-icon[name="close-outline"] {
+        border: 2px solid #030303;
+        color: #000000;
+      }
+  
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+      display: block;
+    }
+  
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+      display: none;
+    }
+
+
+    /* Home section */
+
+    .homepage-section {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .hmpg_div_left {
+      width:100vw;
+      height: 50vh;
+      /* border: 2px solid rgb(0, 243, 32); */
+      
+    }
+
+
+.homepg-left-div1 {
+  /* border: 1px solid rgb(215, 0, 122); */
+  width: 100vw;
+  height: 35vh;   
+  padding: 0;
+  /* margin: 0; */
+  font-size: 7.5em;
+  text-align: center;
+
+ 
+}
+
+
+.homepg-left-div2 {
+  /* border: 1px solid rgb(18, 188, 255); */
+  width: 100vw;
+  height: 25vh;
+}
+
+
+.homepg-left-div1 p {
+  /* border: 1px solid wheat; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.homepg-left-div1 h3{
+  font-family: monospace;
+   margin-top: 1em; 
+   color:white; 
+   font-size: 0.5em
+}
+
+
+.read-more {
+  /* border: 1px solid white; */
+  width: 8em;
+  height: 3em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4338ca;
+  border-radius: 8px;
+  /* margin-left: 8em; */
+  /* margin-top: 2em; */
+  cursor: pointer;
+  /* display: none; */
+}
+
+
+
+.myicons {
+  width: auto;
+  /* padding-left: 4em; */
+  border: 1px solid wheat;
+  font-size: 3.2rem;
+}
+.hm-pg-icon{
+  color: white;
+  text-decoration: none;
+}
+
+
+.ri-linkedin-box-fill {
+  /* padding-left: 0.5em; */
+}
+
+
+/* RIGHT SIDE OF HOME-PG */
+
+.hmpg_div_right {
+  width: 100vw;
+  height: 40vh;
+  border: 1px solid rgb(255, 72, 0);
+  text-align: center;
+  align-content: center;
+}
+
+.hm-pg-svg {
+  height: 30vh;
+  width: 60vw;
+  max-width: 100%;
+  border-radius: 10%; 
+  
+}
+
+
+
+/* 
+  ============================ 
+    About Section
+  ============================
+  */
+
+
+  
+
+  
+  
+  .about-main-div2 {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(184, 7, 7); */
+  }
+  
+  .about-left-div {
+    height: 30vh;
+    width: 100vw;
+    /* border: 1px solid white; */
+  }
+  
+  .about-left-div img {
+    height: 30vh;
+    width: 100vw;
+  }
+  
+  /* About-me right div */
+  
+  .about-right-div {
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid white; */
+  }
+  
+  /* div-1 */
+  .abut-right-div1 {
+    height: 30vh;
+    width: 100vw;
+    text-align: left;
+    /* padding: 28px; */
+    line-height: center;
+    color: white;
+    /* overflow: hidden; */
+  }
+  
+  .abut-right-div1 p {
+    font-size: 1.2rem;
+    margin: 0;
+    
+    font-family: "Work Sans", sans-serif;
+    
+    /* padding: 10px; */
+  }
+  
+  /* div-2 aboutpage */
+  
+  .abutinfo-right-div2 {
+    height: 10vh;
+    width: 100vw;
+    /* background-color: #12123E;   */
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    /* padding: 3rem; */
+  }
+  
+  .about__info-title {
+    font-size: 2rem;
+    color: #4338CA;
+    font-weight: 700;
+  }
+  
+  .about__info-name {
+    font-size: 1rem;
+    color: white;
+    font-weight:300;
+  }
+  
+  .about-right-div-3 {
+    height: 10vh;
+    width: 100vw;
+    /* text-align: center; */
+    /* border: 1px solid rgb(225, 26, 26); */
+    padding: 0;
+    margin: 0;
+    align-content: center;
+  }
+  
+  
+  
+  .cv {
+    width: 8.5em;
+    height: 3em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4338ca;
+    border-radius: 8px;
+  }
+
+  /* 
+==================
+
+Project Section
+
+=================
+
+*/
+
+.project-section {
+  height: 165vh;
+  width: 100vw;
+  background-color: #000021;
+  
+}
+
+.project-section-content-div {
+  height: 150vh;
+  width: 100vw;
+  border: 1px solid rgb(0, 244, 61);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.project-card {
+  text-align: center;
+  height: auto;
+  width: 75vw;
+  border: 2px solid #ffffff;
+  border-radius: 2em;
+  margin: 10px; /* Add some margin around each card */
+}
+
+
+.project-card img {
+  /* padding: 4rem; */
+  /* background-color: #4338CA; */
+  width: 50vw;
+  height: 25vh;
+  /* border: 2px solid green; */
+}
+
+.project_detail_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20vh;
+  width: 100%;
+  /* border-radius: 2em; */
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.project_detail_div h1 {
+  font-size: 1.9rem;
+  /* border: 1px solid rgb(255, 255, 255); */
+  text-align: center;
+  font-weight: 700;
+  background-color: #12123e;
+  color: #ffffff;
+}
+
+.project_detail_div p {
+  /* border: 1px solid rgb(255, 130, 5); */
+  text-align: center;
+  font-size: 1.5rem;
+
+  color: white;
+  font-style: bold;
+  font-weight: 400;
+}
+
+.card-icons {
+  width: auto;
+  /* border: 1px solid rgb(255, 130, 5); */
+  height: auto;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  padding-top: 0.5em;
+  
+}
+
+.card-icon-link{
+  color: white;
+  text-decoration: none;
+}
+
+/*===== FOOTER =====*/
+.footer {
+  text-align: center;
+  height: 40vh;
+  width: 100vw;
+  background-color: #12123E;;
+}
+.footer-below-div p{
+  font-size: 2.5em;
+  padding-top: 2vh;
+  color: white;
+}
+  }
+  
+
+  
+  
+  
