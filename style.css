@@ -19,9 +19,7 @@ body {
 
 body {
   overflow-x: hidden;
-  
 }
-
 
 .main {
   height: 100vh;
@@ -77,7 +75,6 @@ body {
   gap: 4.8rem;
   justify-content: center;
   list-style: none;
-
 }
 
 .navbar-list {
@@ -165,12 +162,11 @@ body {
   font-size: 1em;
 }
 
-
-.homepg-left-div1 h3{
+.homepg-left-div1 h3 {
   font-family: monospace;
-   margin-top: 1em; 
-   color:white; 
-   font-size: 0.5em
+  margin-top: 1em;
+  color: white;
+  font-size: 0.5em;
 }
 
 /* homepage-section left div-2  */
@@ -179,7 +175,6 @@ body {
   /* border: 1px solid rgb(239, 255, 18); */
   width: 50vw;
   height: 35vh;
-  
 }
 
 .read-more {
@@ -196,7 +191,10 @@ body {
   cursor: pointer;
 }
 
-
+.read-more a {
+  color: white;
+  text-decoration: none;
+}
 
 .myicons {
   width: auto;
@@ -204,11 +202,10 @@ body {
   /* border: 1px solid wheat; */
   font-size: 3.2rem;
 }
-.hm-pg-icon{
+.hm-pg-icon {
   color: white;
   text-decoration: none;
 }
-
 
 .ri-linkedin-box-fill {
   padding-left: 0.5em;
@@ -231,8 +228,7 @@ body {
   height: auto;
   width: auto;
   max-width: 100%;
-  border-radius: 10%; 
-  
+  border-radius: 10%;
 }
 
 /* 
@@ -253,8 +249,6 @@ body {
   /* border: 1px solid white; */
   text-align: center;
   align-content: center;
-
-
 }
 
 .about-heading-div h1 {
@@ -335,10 +329,7 @@ body {
   width: 50vw;
   text-align: center;
   /* border: 1px solid white; */
-  
 }
-
-
 
 .cv {
   width: 8.5em;
@@ -348,7 +339,6 @@ body {
   color: #ffffff;
   background-color: #4338ca;
   border-radius: 8px;
-
 }
 
 /* 
@@ -364,7 +354,6 @@ Project Section
   height: 90vh;
   width: 100vw;
   background-color: #000021;
-  
 }
 
 .project-heading-div {
@@ -446,14 +435,12 @@ Project Section
   text-align: center;
   color: white;
   padding-top: 0.5em;
-  
 }
 
-.card-icon-link{
+.card-icon-link {
   color: white;
   text-decoration: none;
 }
-
 
 /*===== FOOTER =====*/
 .footer {
@@ -462,48 +449,42 @@ Project Section
   text-align: center;
   height: 40vh;
   width: 100vw;
-  background-color: #12123E;
+  background-color: #12123e;
 }
 
-
-
-.footer-top-div{
+.footer-top-div {
   height: 20vh;
   width: 100vw;
   /* border: 1px solid white; */
   align-content: center;
-  color:white;
+  color: white;
 }
 
-.footer-top-div h2{
+.footer-top-div h2 {
   font-size: 6em;
   padding-bottom: 1vh;
 }
-.footer-top-div p{
-  
+.footer-top-div p {
   font-size: 2.5em;
 }
-.footer-below-div{
+.footer-below-div {
   height: 20vh;
   width: 100vw;
   /* border: 1px solid white; */
 }
 
-.footer__social{
+.footer__social {
   font-size: 5em;
   text-align: center;
   color: white;
-
 }
 
-.footer__link{
-
+.footer__link {
   text-decoration: none;
 }
 
-.footer-below-div p{
+.footer-below-div p {
   font-size: 3em;
   padding-top: 2vh;
   color: white;
 }
-
