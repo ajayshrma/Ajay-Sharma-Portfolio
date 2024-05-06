@@ -174,7 +174,7 @@ body {
 .myicons {
   width: auto;
   /* padding-left: 4em; */
-  border: 1px solid wheat;
+  /* border: 1px solid wheat; */
   font-size: 3.2rem;
 }
 .hm-pg-icon{
@@ -193,7 +193,7 @@ body {
 .hmpg_div_right {
   width: 100vw;
   height: 40vh;
-  border: 1px solid rgb(255, 72, 0);
+  /* border: 1px solid rgb(255, 72, 0); */
   text-align: center;
   align-content: center;
 }
@@ -333,7 +333,7 @@ Project Section
 .project-section-content-div {
   height: 150vh;
   width: 100vw;
-  border: 1px solid rgb(0, 244, 61);
+  /* border: 1px solid rgb(0, 244, 61); */
   margin: 0;
   padding: 0;
   display: flex;
