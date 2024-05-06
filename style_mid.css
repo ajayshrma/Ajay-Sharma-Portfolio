@@ -165,6 +165,11 @@ body {
 }
 
 
+.read-more a {
+  color: white;
+  text-decoration: none;
+}
+
 
 .myicons {
   width: auto;

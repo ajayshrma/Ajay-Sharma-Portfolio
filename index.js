@@ -23,3 +23,26 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
+
+// resume  download btn
+
+function downloadCV() {
+  // Define the URL of your resume PDF
+  var resumeURL = "./Ajay_Sharma_Resume.pdf";
+
+  // Create a link element
+  var link = document.createElement("a");
+
+  // Set the href attribute of the link element to the URL of your resume PDF
+  link.href = resumeURL;
+
+  // Set the download attribute to specify the filename users will see when they download the file
+  link.download = "Ajay_Sharma_Resume.pdf";
+
+  // Simulate a click on the link element to trigger the download
+  document.body.appendChild(link);
+  link.click();
+
+  // Clean up: remove the link element
+  document.body.removeChild(link);
+}
