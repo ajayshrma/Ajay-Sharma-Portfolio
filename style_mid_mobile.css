@@ -217,8 +217,6 @@ body {
 
   
 
-  
-  
   .about-main-div2 {
     height: 80vh;
     width: 100vw;
@@ -324,14 +322,14 @@ Project Section
 */
 
 .project-section {
-  height: 165vh;
+  height: auto;
   width: 100vw;
   background-color: #000021;
   
 }
 
 .project-section-content-div {
-  height: 150vh;
+  height: auto;
   width: 100vw;
   /* border: 1px solid rgb(0, 244, 61); */
   margin: 0;
@@ -345,7 +343,7 @@ Project Section
 .project-card {
   text-align: center;
   height: auto;
-  width: 75vw;
+  width: auto;
   border: 2px solid #ffffff;
   border-radius: 2em;
   margin: 10px; /* Add some margin around each card */
