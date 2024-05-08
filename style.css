@@ -374,7 +374,7 @@ Project Section
 .project-section-content-div {
   height: 80vh;
   width: 100vw;
-  border: 1px solid rgb(0, 244, 61);  
+  /* border: 1px solid rgb(0, 244, 61);   */
   display: flex;
   align-items: center;
   /* justify-content: center; */
